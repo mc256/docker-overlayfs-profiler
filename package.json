@@ -1,0 +1,25 @@
+{
+  "name": "docker-overlyfs-heatmap",
+  "version": "1.0.0",
+  "description": "Analyse the file system used by Docker containers",
+  "main": "index.js",
+  "repository": "git@github.com:mc256/docker-overlyfs-profiler.git",
+  "author": "masterchan <masterchan.256@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./main.js",
+    "t": "node test/test-basic.js"
+  },
+  "bin": {
+    "overlayfs-profiler": "./main.js"
+  },
+  "dependencies": {
+    "cli-progress": "^3.8.1",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^7.1.1",
+    "open": "^7.0.3",
+    "require": "^2.4.20",
+    "shell-quote": "^1.7.2"
+  }
+}
