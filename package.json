@@ -1,10 +1,10 @@
 {
-  "name": "docker-overlyfs-heatmap",
+  "name": "overlayfs-profiler",
   "version": "1.0.0",
   "description": "Analyse the file system used by Docker containers",
   "main": "index.js",
   "repository": "git@github.com:mc256/docker-overlyfs-profiler.git",
-  "author": "masterchan <masterchan.256@gmail.com>",
+  "author": "Maverick Chan <jlchen@cs.toronto.edu>",
   "license": "MIT",
   "scripts": {
     "start": "node ./main.js",
@@ -21,5 +21,14 @@
     "open": "^7.0.3",
     "require": "^2.4.20",
     "shell-quote": "^1.7.2"
-  }
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "debugfs",
+    "blktrace",
+    "blkparse",
+    "disk-profiler",
+    "disk-performance"
+  ]
 }
